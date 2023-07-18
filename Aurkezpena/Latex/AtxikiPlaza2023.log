@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.5)  18 JUL 2023 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.5)  18 JUL 2023 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1667,16 +1667,16 @@ Overfull \hbox (77.39229pt too wide) has occurred while \output is active
 <./figures/SoftwareLibre.jpg, id=302, 1967.35pt x 1446.40375pt>
 File: ./figures/SoftwareLibre.jpg Graphic file (type jpg)
 <use ./figures/SoftwareLibre.jpg>
-Package pdftex.def Info: ./figures/SoftwareLibre.jpg  used on input line 2631.
+Package pdftex.def Info: ./figures/SoftwareLibre.jpg  used on input line 2635.
 (pdftex.def)             Requested size: 98.33162pt x 72.28027pt.
 <./figures/julia-logo-color.png, id=303, 321.2pt x 200.75pt>
 File: ./figures/julia-logo-color.png Graphic file (type png)
 <use ./figures/julia-logo-color.png>
 Package pdftex.def Info: ./figures/julia-logo-color.png  used on input line 263
-1.
+5.
 (pdftex.def)             Requested size: 61.45703pt x 38.40938pt.
 
-Overfull \vbox (3.49535pt too high) detected at line 2631
+Overfull \vbox (18.49535pt too high) detected at line 2635
  []
 
 
@@ -1688,7 +1688,7 @@ Overfull \hbox (77.39229pt too wide) has occurred while \output is active
 
  <./figures/SoftwareLibre.jpg> <./figures/julia-logo-color.png>]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 2720.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 2724.
 
 Overfull \hbox (77.39229pt too wide) has occurred while \output is active
   [] [] [] [] [] [] 
@@ -1697,11 +1697,6 @@ Overfull \hbox (77.39229pt too wide) has occurred while \output is active
 [26
 
 ]
-Overfull \hbox (20.11304pt too wide) in paragraph at lines 2827--2827
- [] 
- []
-
-
 Overfull \hbox (77.39229pt too wide) has occurred while \output is active
   [] [] [] [] [] [] 
  []
@@ -1715,10 +1710,10 @@ LaTeX Info: Redefining \% on input line 1.
 <./figures/Matrix4Ways.png, id=334, 735.74875pt x 218.8175pt>
 File: ./figures/Matrix4Ways.png Graphic file (type png)
 <use ./figures/Matrix4Ways.png>
-Package pdftex.def Info: ./figures/Matrix4Ways.png  used on input line 2894.
+Package pdftex.def Info: ./figures/Matrix4Ways.png  used on input line 2891.
 (pdftex.def)             Requested size: 307.28987pt x 91.39186pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 2894--2894
+Overfull \hbox (6.0pt too wide) in paragraph at lines 2891--2891
  [][][][][][][] 
  []
 
@@ -1732,40 +1727,40 @@ Overfull \hbox (77.39229pt too wide) has occurred while \output is active
  <./figures/Matrix4Ways.png>]
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/m/n' instead on input line 3029.
+(Font)              using `OT1/cmss/m/n' instead on input line 3026.
 
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 3029.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 3026.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <7> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 3029.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 3026.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <5> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 3029.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 3026.
 <./figures/Definizio bisualak3.png, id=343, 900.36375pt x 182.6825pt>
 File: ./figures/Definizio bisualak3.png Graphic file (type png)
 <use ./figures/Definizio bisualak3.png>
 Package pdftex.def Info: ./figures/Definizio bisualak3.png  used on input line 
-3029.
+3026.
 (pdftex.def)             Requested size: 248.90141pt x 50.50125pt.
 <./figures/PageRanks-Example-svg.png, id=344, 496.85625pt x 400.49625pt>
 File: ./figures/PageRanks-Example-svg.png Graphic file (type png)
 <use ./figures/PageRanks-Example-svg.png>
 Package pdftex.def Info: ./figures/PageRanks-Example-svg.png  used on input lin
-e 3029.
+e 3026.
 (pdftex.def)             Requested size: 55.3133pt x 44.58026pt.
 <./figures/Transformazio_linealak.png, id=345, 463.7325pt x 327.2225pt>
 File: ./figures/Transformazio_linealak.png Graphic file (type png)
 <use ./figures/Transformazio_linealak.png>
 Package pdftex.def Info: ./figures/Transformazio_linealak.png  used on input li
-ne 3029.
+ne 3026.
 (pdftex.def)             Requested size: 73.7506pt x 52.03711pt.
 <./figures/IrudiKonprimitzea.png, id=346, 759.83875pt x 327.2225pt>
 File: ./figures/IrudiKonprimitzea.png Graphic file (type png)
 <use ./figures/IrudiKonprimitzea.png>
 Package pdftex.def Info: ./figures/IrudiKonprimitzea.png  used on input line 30
-29.
+26.
 (pdftex.def)             Requested size: 73.7506pt x 31.76051pt.
 
-Overfull \vbox (0.87976pt too high) detected at line 3029
+Overfull \vbox (0.87976pt too high) detected at line 3026
  []
 
 
@@ -1780,18 +1775,18 @@ igures/Transformazio_linealak.png> <./figures/IrudiKonprimitzea.png>]
 <./figures/IKDi3.jpeg, id=360, 241.90375pt x 60.225pt>
 File: ./figures/IKDi3.jpeg Graphic file (type jpg)
 <use ./figures/IKDi3.jpeg>
-Package pdftex.def Info: ./figures/IKDi3.jpeg  used on input line 3108.
+Package pdftex.def Info: ./figures/IKDi3.jpeg  used on input line 3105.
 (pdftex.def)             Requested size: 73.7506pt x 18.36078pt.
 <./figures/Adimen Artifiziala.jpeg, id=361, 277.035pt x 183.68625pt>
 File: ./figures/Adimen Artifiziala.jpeg Graphic file (type jpg)
 <use ./figures/Adimen Artifiziala.jpeg>
 Package pdftex.def Info: ./figures/Adimen Artifiziala.jpeg  used on input line 
-3108.
+3105.
 (pdftex.def)             Requested size: 73.7506pt x 48.89804pt.
 <./figures/ProgAlgebra.pdf, id=362, 813.43903pt x 281.85298pt>
 File: ./figures/ProgAlgebra.pdf Graphic file (type pdf)
 <use ./figures/ProgAlgebra.pdf>
-Package pdftex.def Info: ./figures/ProgAlgebra.pdf  used on input line 3108.
+Package pdftex.def Info: ./figures/ProgAlgebra.pdf  used on input line 3105.
 (pdftex.def)             Requested size: 73.7506pt x 25.5506pt.
 
 Overfull \hbox (77.39229pt too wide) has occurred while \output is active
@@ -1805,7 +1800,7 @@ bra.pdf>]
 <./figures/EHU_Datuetan.png, id=376, 1389.19pt x 592.2125pt>
 File: ./figures/EHU_Datuetan.png Graphic file (type png)
 <use ./figures/EHU_Datuetan.png>
-Package pdftex.def Info: ./figures/EHU_Datuetan.png  used on input line 3223.
+Package pdftex.def Info: ./figures/EHU_Datuetan.png  used on input line 3220.
 (pdftex.def)             Requested size: 196.667pt x 83.83994pt.
 
 Overfull \hbox (77.39229pt too wide) has occurred while \output is active
@@ -1826,10 +1821,10 @@ Overfull \hbox (77.39229pt too wide) has occurred while \output is active
 File: ./figures/KZAA_Irakasgaiak.png Graphic file (type png)
 <use ./figures/KZAA_Irakasgaiak.png>
 Package pdftex.def Info: ./figures/KZAA_Irakasgaiak.png  used on input line 338
-4.
+1.
 (pdftex.def)             Requested size: 196.667pt x 173.14552pt.
 
-Overfull \vbox (4.8606pt too high) detected at line 3384
+Overfull \vbox (4.8606pt too high) detected at line 3381
  []
 
 
@@ -1843,18 +1838,18 @@ Overfull \hbox (77.39229pt too wide) has occurred while \output is active
 <./figures/linearalgebra5.png, id=405, 36.135pt x 47.2164pt>
 File: ./figures/linearalgebra5.png Graphic file (type png)
 <use ./figures/linearalgebra5.png>
-Package pdftex.def Info: ./figures/linearalgebra5.png  used on input line 3468.
+Package pdftex.def Info: ./figures/linearalgebra5.png  used on input line 3465.
 
 (pdftex.def)             Requested size: 73.7506pt x 96.37273pt.
 <./figures/Intro_To_LA.jpg, id=406, 1137.24875pt x 1493.58pt>
 File: ./figures/Intro_To_LA.jpg Graphic file (type jpg)
 <use ./figures/Intro_To_LA.jpg>
-Package pdftex.def Info: ./figures/Intro_To_LA.jpg  used on input line 3468.
+Package pdftex.def Info: ./figures/Intro_To_LA.jpg  used on input line 3465.
 (pdftex.def)             Requested size: 73.7506pt x 96.8582pt.
 <./figures/Numerical_LA.jpg, id=407, 86.724pt x 125.268pt>
 File: ./figures/Numerical_LA.jpg Graphic file (type jpg)
 <use ./figures/Numerical_LA.jpg>
-Package pdftex.def Info: ./figures/Numerical_LA.jpg  used on input line 3468.
+Package pdftex.def Info: ./figures/Numerical_LA.jpg  used on input line 3465.
 (pdftex.def)             Requested size: 73.7506pt x 106.53372pt.
 
 Overfull \hbox (77.39229pt too wide) has occurred while \output is active
@@ -1869,10 +1864,10 @@ l_LA.jpg>]
 File: ./figures/Matrize_Deskonposaketa.png Graphic file (type png)
 <use ./figures/Matrize_Deskonposaketa.png>
 Package pdftex.def Info: ./figures/Matrize_Deskonposaketa.png  used on input li
-ne 3758.
+ne 3755.
 (pdftex.def)             Requested size: 99.55904pt x 87.60104pt.
 
-Overfull \vbox (11.74995pt too high) detected at line 3758
+Overfull \vbox (11.74995pt too high) detected at line 3755
  []
 
 
@@ -1887,7 +1882,7 @@ Overfull \hbox (77.39229pt too wide) has occurred while \output is active
 File: ./figures/Face_Recognition.png Graphic file (type png)
 <use ./figures/Face_Recognition.png>
 Package pdftex.def Info: ./figures/Face_Recognition.png  used on input line 388
-6.
+3.
 (pdftex.def)             Requested size: 196.667pt x 90.0354pt.
 
 Overfull \hbox (77.39229pt too wide) has occurred while \output is active
@@ -1900,13 +1895,13 @@ Overfull \hbox (77.39229pt too wide) has occurred while \output is active
 <./figures/IncidentMatrix.png, id=440, 272.01625pt x 186.6975pt>
 File: ./figures/IncidentMatrix.png Graphic file (type png)
 <use ./figures/IncidentMatrix.png>
-Package pdftex.def Info: ./figures/IncidentMatrix.png  used on input line 4025.
+Package pdftex.def Info: ./figures/IncidentMatrix.png  used on input line 4022.
 
 (pdftex.def)             Requested size: 49.1658pt x 33.74368pt.
 <./figures/ZientziAstea2.pdf, id=441, 827.09pt x 173.448pt>
 File: ./figures/ZientziAstea2.pdf Graphic file (type pdf)
 <use ./figures/ZientziAstea2.pdf>
-Package pdftex.def Info: ./figures/ZientziAstea2.pdf  used on input line 4025.
+Package pdftex.def Info: ./figures/ZientziAstea2.pdf  used on input line 4022.
 (pdftex.def)             Requested size: 150.57071pt x 31.57393pt.
 
 Overfull \hbox (77.39229pt too wide) has occurred while \output is active
@@ -1919,12 +1914,12 @@ Overfull \hbox (77.39229pt too wide) has occurred while \output is active
 <./figures/Dedikazioa1.png, id=459, 1023.825pt x 315.1775pt>
 File: ./figures/Dedikazioa1.png Graphic file (type png)
 <use ./figures/Dedikazioa1.png>
-Package pdftex.def Info: ./figures/Dedikazioa1.png  used on input line 4197.
+Package pdftex.def Info: ./figures/Dedikazioa1.png  used on input line 4194.
 (pdftex.def)             Requested size: 248.90141pt x 76.6204pt.
 <./figures/Dedikazioa2.png, id=460, 544.0325pt x 311.1625pt>
 File: ./figures/Dedikazioa2.png Graphic file (type png)
 <use ./figures/Dedikazioa2.png>
-Package pdftex.def Info: ./figures/Dedikazioa2.png  used on input line 4197.
+Package pdftex.def Info: ./figures/Dedikazioa2.png  used on input line 4194.
 (pdftex.def)             Requested size: 150.57071pt x 86.11833pt.
 
 Overfull \hbox (77.39229pt too wide) has occurred while \output is active
@@ -1938,7 +1933,7 @@ Overfull \hbox (77.39229pt too wide) has occurred while \output is active
 File: ./figures/Kalifikazio_portzentaia.png Graphic file (type png)
 <use ./figures/Kalifikazio_portzentaia.png>
 Package pdftex.def Info: ./figures/Kalifikazio_portzentaia.png  used on input l
-ine 4347.
+ine 4344.
 (pdftex.def)             Requested size: 196.667pt x 76.56961pt.
 
 Overfull \hbox (77.39229pt too wide) has occurred while \output is active
@@ -1951,7 +1946,7 @@ Overfull \hbox (77.39229pt too wide) has occurred while \output is active
 <./figures/blacboards2.png, id=481, 2007.5pt x 1055.945pt>
 File: ./figures/blacboards2.png Graphic file (type png)
 <use ./figures/blacboards2.png>
-Package pdftex.def Info: ./figures/blacboards2.png  used on input line 4415.
+Package pdftex.def Info: ./figures/blacboards2.png  used on input line 4412.
 (pdftex.def)             Requested size: 99.3591pt x 52.25252pt.
 
 Overfull \hbox (77.39229pt too wide) has occurred while \output is active
@@ -1965,7 +1960,7 @@ Overfull \hbox (77.39229pt too wide) has occurred while \output is active
 File: ./figures/11-Semi-Axis-Earth.png Graphic file (type png)
 <use ./figures/11-Semi-Axis-Earth.png>
 Package pdftex.def Info: ./figures/11-Semi-Axis-Earth.png  used on input line 4
-624.
+621.
 (pdftex.def)             Requested size: 122.91406pt x 86.22475pt.
 
 Overfull \hbox (77.39229pt too wide) has occurred while \output is active
@@ -1984,15 +1979,15 @@ Overfull \hbox (77.39229pt too wide) has occurred while \output is active
 \tf@snm=\write11
 \openout11 = `AtxikiPlaza2023.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4634.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 4634.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4631.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 4631.
 
 (./AtxikiPlaza2023.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4634.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4634.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4631.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4631.
 
 Package rerunfilecheck Info: File `AtxikiPlaza2023.out' has not changed.
 (rerunfilecheck)             Checksum: F2D3965C0EF921800B8C0E5B36A52C89;208.
@@ -2006,10 +2001,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 31173 strings out of 481239
- 577061 string characters out of 5920378
+ 31172 strings out of 481239
+ 577049 string characters out of 5920378
  1010689 words of memory out of 5000000
- 45678 multiletter control sequences out of 15000+600000
+ 45677 multiletter control sequences out of 15000+600000
  616775 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,80p,782b,4377s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2035,7 +2030,7 @@ ts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhv
 bo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on AtxikiPlaza2023.pdf (41 pages, 10737377 bytes).
+Output written on AtxikiPlaza2023.pdf (41 pages, 10737325 bytes).
 PDF statistics:
  597 PDF objects out of 1000 (max. 8388607)
  440 compressed objects within 5 object streams
