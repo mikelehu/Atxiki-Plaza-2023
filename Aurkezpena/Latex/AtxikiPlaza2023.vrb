@@ -1,0 +1,72 @@
+\frametitle{1) Etorkizunerako proiektuak}
+
+	
+	\medskip
+	\small
+
+
+\textcolor{red}{Aplikazioa berriak !!}	
+
+\medskip
+
+\begin{itemize}
+	\item[3)]  	\textcolor{blue}{ Sateliteen propagaziorako metodoak}
+	
+\medskip
+
+
+\begin{figure}
+\begin{minipage}{.45\textwidth}
+	\colorbox{white}
+	{\includegraphics[width=0.8\linewidth]{SmallGEO_Hispasat_36W-1_pillars}}
+\end{minipage}
+%
+\begin{minipage}{0.45\textwidth}
+	\colorbox{white}  {\includegraphics[width=0.8\linewidth]{J2 VOP Problem}}
+\end{minipage}
+\end{figure}
+
+\medskip
+
+\item[4)] 	\textcolor{blue}{Ikasketa Automatiko Zientifikoa arloan aplikazioa}
+
+
+\begin{figure}
+	\begin{minipage}{.45\textwidth}
+		\colorbox{white}
+		{\includegraphics[width=0.8\linewidth]{Ikasketa_Automatiko_Zientifikoa}}
+	\end{minipage}
+	%
+\end{figure}
+
+
+\end{itemize}
+
+\note{
+
+
+Etorkizunerako beste bi proiektuak, aplikazio berriak ditugu:
+	
+\begin{itemize}
+	
+	\item 	Egun espazioan dagoen satelite kopurua oso handia denez, hauen arteko kolisioak ebitatzeko, sateliteen orbiteen kalkulurako doitasun altuko metodo eraginkorrak beharrezkoak dira.
+	
+	IRKGL metodoek, problema kontserbakorren epe luzeko eta doitasun altuko zenbakizko integrazioetarako propietate interesgarriak dituztenez, metodo hauek sateliteen orbiten kalkulurako egokiak izatea espero liteke.
+
+	
+
+	
+	\medskip
+	\item 	 Eta etorkizuneko proiektuekin amaitzeko, Ikasketa Automatiko Zientifiko arloan, optimizatu behar diren funtzioen  ebaluaziorako, ekuazio diferentzialen zenbakizko soluzioa kalkulatzea beharrezkoa da. Optimizazio algoritmoek helburu funtzioaren gradientea askotan kalkulatu behar dute eta IRKGL metodoak, hauek  modu eraginkorrean kalkulatzeko aplikatu daitezke
+	
+	
+\end{itemize}
+
+
+
+
+}
+
+
+
+

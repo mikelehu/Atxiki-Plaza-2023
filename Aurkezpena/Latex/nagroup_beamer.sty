@@ -1,0 +1,160 @@
+\NeedsTeXFormat{LaTeX2e}[1995/12/01]
+\ProvidesPackage{nagroup_beamer}[2013/10/20]
+\typeout{`nagroup_beamer' macros for Beamer}
+
+\RequirePackage{amssymb}
+
+\usetheme{Malmoe}  % For different style of slide title.
+\usetheme{Warsaw}  
+
+\beamertemplateshadingbackground{white!100}{white!25 } % #1 bottom #2 top
+\only<handout>{\beamertemplateshadingbackground{white!100}{white!25 }} % #1 bottom #2 top}{}}
+
+\beamertemplateshadowblocks  % farbig hinterlegte und schattierte Bloecke
+
+\setbeamertemplate{items}[ball]
+
+% Handouts with minimal colour in header, footer, etc.
+% Adapted from themes/outer/beamerouterthemedefault.sty.
+\only<handout>{
+\setbeamercolor*{palette primary}{use=structure,fg=black,bg=white}
+\setbeamercolor*{palette quaternary}{fg=black,bg=white}
+}
+
+% No navigation synbols.
+\setbeamertemplate{navigation symbols}{}
+
+% Following adapted from beamerthemeABMATH.sty (Hamburg-Harburg)
+\setbeamersize{text margin left=2em,text margin right=2em}
+\setbeamerfont{uni}{size*={99},family*={phv},series=\bf}
+\defbeamertemplate*{footline}{infolines theme}
+{
+  \leavevmode
+  \hbox{%
+
+   \begin{beamercolorbox}[wd=.25\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    {\vspace{-1.5pt}} % \textcolor{white}%
+%    {\vspace{-1.95pt}\includegraphics[width=1.5cm]{nalogo-plain.pdf}}
+%    {\vspace{-1.62pt}\hspace*{-49pt}\includegraphics[width=1.545cm]{nalogo-plain-nomargin-white-ondarkbg.pdf}}
+%    {\vspace{-1.62pt}\hspace*{-49pt}\includegraphics[width=1.545cm]{nalogo-plain-nomargin-white-ondarkbg}}
+  \end{beamercolorbox}%
+
+  %   \begin{beamercolorbox}[wd=.25\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+  %   {\vspace{-1.5pt}\textcolor{gray}%
+  %   {\href{www.manchester.ac.uk/}{University of Manchester}}}
+  % \end{beamercolorbox}%
+
+    \begin{beamercolorbox}[wd=.25\paperwidth,ht=2.25ex,dp=1ex,center]{title
+      in head/foot}%
+    \usebeamerfont{author in head/foot}\insertshortauthor
+  \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.40\paperwidth,ht=2.25ex,dp=1ex,center]{author
+      in head/foot}%
+    \usebeamerfont{title in head/foot}\insertshorttitle
+  \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.10\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{date in head/foot}\insertframenumber{} / \inserttotalframenumber
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+\newcommand{\myup}[1][-0.5cm]{\vspace*{#1}}
+
+\def\red{\color{red}}
+\def\blue{\color{blue}}
+\def\green{\color{green}}
+\def\orange{\color{orange}}
+\def\magenta{\color{magenta}}
+\def\black{\color{black}}
+\def\yellow{\color{yellow}}
+% \definecolor{orange}{rgb}{1,0.25,0.5}
+% \definecolor{magenta}{rgb}{.75,0,.75}
+% \definecolor{green}{rgb}{0,0.65,0}
+
+% Powerpoint colours:
+\definecolor{pred}{rgb}{0.5,0,0}
+\definecolor{pgreen}{rgb}{0,0.5,0}
+\definecolor{pblue}{rgb}{0,0,0.6}
+\newcommand{\pred}{\color{pred}}
+\newcommand{\pblue}{\color{pblue}}
+\newcommand{\pgreen}{\color{pgreen}}
+
+\definecolor{LemonChiffon}{rgb}{1,0.98,0.55}
+
+\newcommand{\cbox}[2][LemonChiffon]{\colorbox{#1}{#2}}
+\newcommand{\mcbox}[2][LemonChiffon]{\colorbox{#1}{$#2$}}
+
+\definecolor{hotpink}{rgb}{0.9,0,0.5}
+\def\hotpink{\color{hotpink}}
+\definecolor{lightpink}{rgb}{1,0.75,1}
+\def\lightpink{\color{lightpink}}
+
+\def\myemph#1{\textcolor{hotpink}{#1}}
+\newcommand{\remph}[2][red]{\emph{\textcolor{#1}{#2}}}
+\newcommand{\mybemph}[2][hotpink]{\textbf{\textcolor{#1}{#2}}}
+\let\bemph\mybemph
+\newcommand{\mybtt}[2][hotpink]{\textbf{\texttt{\textcolor{#1}{#2}}}}
+\let\btt\mybtt
+
+\def\about#1{\centerline{\color{blue}\textbf{#1}}}
+
+
+\newenvironment{mylist}[1][black]{\begin{list}{\textcolor{#1}{$\blacktriangleright$}}{}}{\end{list}}
+\newenvironment{mylist1}[1][black]{\begin{list}{\textcolor{#1}{$\bullet$}}{}}{\end{list}}
+\newenvironment{mylist2}[1][black]{\begin{list}{\textcolor{#1}{\rule{2mm}{2mm}}}{}}{\end{list}}
+\newenvironment{mylist3}[1][red]{\begin{list}{\textcolor{#1}{$\bigstar$}}{}}{\end{list}}
+\newenvironment{mlist}[1][red]{\begin{list}{\textcolor{#1}{\rule{2mm}{2mm}}}{}}{\end{list}}
+
+% From jeep.sty
+\def\symbolnote#1#2{\let\@thefootn=\thefootnote%
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}%
+\footnotemark[#1]%
+\footnotetext[#1]{#2}%
+\let\thefootnote=\@thefootn
+}
+% Define symboleqn environment to make a displayed equation with
+% a symbolic equation label.
+\newenvironment{symboleqn}[1]{
+   \def\@savesymbol{#1}$$}{\eqno \@savesymbol $$\global\@ignoretrue}
+
+% Adapted from fancybox.doc
+\newlength{\framedlength}
+\newenvironment{framed}%
+  {\setlength{\fboxsep}{15pt}
+    \setlength{\framedlength}{\linewidth}%
+    \addtolength{\framedlength}{-2\fboxsep}%
+    \addtolength{\framedlength}{-2\fboxrule}%
+    \setlength{\fboxsep}{8pt}
+    \setbox0=\hbox\bgroup
+    \minipage{\framedlength}%
+       \setlength{\abovedisplayskip}{0pt}%
+       \setlength{\belowdisplayskip}{0pt}%
+       }%
+   {\endminipage\egroup\displaymath\fbox{\box0}\enddisplaymath}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% From latex.ltx  - to override amsthm used by Beamer.
+\def\matrix#1{\null\,\vcenter{\normalbaselines\m@th
+    \ialign{\hfil$##$\hfil&&\quad\hfil$##$\hfil\crcr
+      \mathstrut\crcr\noalign{\kern-\baselineskip}
+      #1\crcr\mathstrut\crcr\noalign{\kern-\baselineskip}}}\,}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5%%%%%%%%%%%%%%%%%
+
+% Adapted from themes/outer/beamerouterthemedefault.sty.
+\only<handout>{\beamertemplateshadingbackground{white!100}{white!25 }} % #1 bottom #2 top}{}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5%%%%%%%%%%%%%%%%%
+\newif\ifprintonhand
+\printonhandtrue    % To include all graphics on slides.
+\only<handout>{\printonhandfalse} % To omit certain heavy graphics for printing.
+
+\def\slidehand#1#2{\ifprintonhand#1\else\forhandout{#2}\fi}
+
+\def\forhandout#1{%
+\vfill
+\begin{center}
+\fbox{\large #1}
+\end{center}
+\vfill
+}

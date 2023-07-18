@@ -1,0 +1,4 @@
+\babel@toc {spanish}{}
+\beamer@sectionintoc {1}{Irakaskuntzaren eta ikerketaren arloko merezimenduak}{3}{0}{1}
+\beamer@sectionintoc {2}{Ikerketa proiektua}{19}{0}{2}
+\beamer@sectionintoc {3}{Irakaskuntza programa (Aljebra)}{28}{0}{3}
